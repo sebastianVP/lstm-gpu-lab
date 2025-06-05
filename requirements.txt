@@ -1,0 +1,21 @@
+# Librerías científicas básicas
+numpy>=1.26.0
+scipy>=1.11.3
+numba>=0.58.1
+cupy-cuda12x>=12.3.0        # cupy para CUDA 12.x, instala automáticamente la versión correcta
+
+# Machine Learning y Deep Learning
+scikit-learn>=1.3.0
+
+# TensorFlow con soporte para GPU (CUDA 12.2)
+tensorflow==2.19.0
+torch==2.7.1
+# PyTorch con soporte para CUDA 12.2 (instalación recomendada manual abajo)
+# NO incluir en pip install directo desde PyPI
+# torch, torchvision y torchaudio deben instalarse con:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu122
+
+# Visualización (opcional pero recomendado)
+matplotlib>=3.8.0
+seaborn>=0.13.0
+jupyterlab>=4.0.0
